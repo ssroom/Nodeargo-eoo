@@ -3,9 +3,9 @@ const projectPageURL = process.env.URL || '';// 填写项目域名可开启自�
 const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;  // 自动访问间隔时间（2分钟）
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';    // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';             // 哪吒端口为443时开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || 'ZFwgodtSYiGaiTg5MH';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'brd.phpp.eu.org';  // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"7173bdcd45ee777c7035c3c240bfeb96","TunnelSecret":"uHSXldKm1KiS0z+yF4/i30eFfNYULZN+1ucGF2QOdOI=","TunnelID":"1844b91a-d6cf-4770-9635-0d859439c6d5"}';     // 固定隧道json或token，留空即启用临时隧道
+const NEZHA_KEY = process.env.NEZHA_KEY || '0tbuywog6B3tSK5g1I';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'codespaces.phpp.eu.org';  // 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"7173bdcd45ee777c7035c3c240bfeb96","TunnelSecret":"996G2D5HIOLnTdhZ0/fbtPeOsRVYhes7cjPt8hH5GI4=","TunnelID":"2794162e-f91f-4e32-ae0c-ad1399531214"}';     // 固定隧道json或token，留空即启用临时隧道
 const port = process.env.PORT || 3000;
 const CFIP = process.env.CFIP || '43.143.242.21';
 const NAME = process.env.NAME || '玩具codespaces新加坡';
